@@ -1,6 +1,6 @@
 {
   "name": "@deltachat/node-dbus-notifier",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "fork of node-dbus-notifier without native usocket dependency",
   "keywords": [
     "dbus",
@@ -32,7 +32,7 @@
     "node": ">= 12.0.0"
   },
   "dependencies": {
-    "@deltachat/dbus-next": "1.0.0"
+    "@deltachat/dbus-next": "^1.0.1"
   },
   "devDependencies": {
     "@types/node": "^12.0.0",

@@ -2,10 +2,10 @@
 # yarn lockfile v1
 
 
-"@deltachat/dbus-next@1.0.0":
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/@deltachat/dbus-next/-/dbus-next-1.0.0.tgz#b40c47beab4573208a5c2bab88b1208a33bc362d"
-  integrity sha512-A/EoNIMS2/idLVwSHBTYF8WTGKHsf0dXEw1eym//3PkKlUON+h0TlGjbCVxVlJzR/TVodzia+zIDwdqxaSR6Pg==
+"@deltachat/dbus-next@^1.0.1":
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/@deltachat/dbus-next/-/dbus-next-1.0.1.tgz#2f75788e7ca81d9ae215751e55f97ab749d6ee6e"
+  integrity sha512-usQUgkJQOLXhFSxn49V/UHTg6SiIlvOCOxjfQ4nvuFast/ZEx1TpczNdPy9wiebhizvmd+Av8jUEVejGy3YM+g==
   dependencies:
     "@nornagon/put" "0.0.8"
     event-stream "3.3.4"
