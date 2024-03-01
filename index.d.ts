@@ -1,5 +1,5 @@
 /* eslint-disable no-unused-vars */
-import { ClientInterface, MessageBus } from 'dbus-next';
+import { ClientInterface, MessageBus } from '@deltachat/dbus-next';
 import { EventEmitter } from 'stream';
 
 // eslint-disable-next-line no-shadow

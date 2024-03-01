@@ -1,7 +1,7 @@
 {
   "name": "node-dbus-notifier",
   "version": "0.3.6",
-  "description": "DBus-based desktop notifications with full feature support",
+  "description": "fork of node-dbus-notifier without native usocket dependency",
   "keywords": [
     "dbus",
     "notifier",
@@ -17,10 +17,10 @@
   ],
   "main": "index.js",
   "types": "index.d.ts",
-  "homepage": "https://github.com/Hill-98/node-dbus-notifier",
-  "repository": "github:Hill-98/node-dbus-notifier",
+  "homepage": "https://github.com/deltachat/node-dbus-notifier",
+  "repository": "github:deltachat/node-dbus-notifier",
   "bugs": {
-    "url": "https://github.com/Hill-98/node-dbus-notifier/issues"
+    "url": "https://github.com/deltachat/node-dbus-notifier/issues"
   },
   "author": "Zhong Lufan",
   "license": "MIT",
@@ -32,7 +32,7 @@
     "node": ">= 12.0.0"
   },
   "dependencies": {
-    "dbus-next": "^0.10.2"
+    "@deltachat/dbus-next": "1.0.0"
   },
   "devDependencies": {
     "@types/node": "^12.0.0",

@@ -1,5 +1,5 @@
 const EventEmitter = require('events');
-const { sessionBus: SessionBus, Variant } = require('dbus-next');
+const { sessionBus: SessionBus, Variant } = require('@deltachat/dbus-next');
 const checkTypes = require('./utils/checkTypes');
 
 const ActionInvokedSymbol = Symbol('actionInvoked');
